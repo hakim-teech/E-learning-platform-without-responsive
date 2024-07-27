@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+margin: 0px;
+padding: 0px;
+font-family: "Cairo", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.home {
+    background-image: linear-gradient(rgba(28, 146, 201, 0.7),rgba(0, 0, 0, 0.7)),url(./business-women-signature-document_1388-90.avif);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+
+}
+.logo img {
+    width: 250px;
+}
+.navbar {
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+
+
+}
+.list ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 40px 60px;
+
+}
+.list a {
+   color: white;
+    font-size:20px;
+}
+.list a:hover {
+    color: red;
+}
+marquee{
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    color: white;
+    text-align: center;
+    font-size: 38px;
+    width: 400px;
+    height: 200px;
+}
+.aboutus{
+    font-size: 10px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
+h1{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.left img {
+    margin-left: 400px;
+    margin-right: 100px;
+    width: 390px;
+    border-radius: 15px;
+   
+}
+.teachers{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.teach{
+    margin-left: 40px;
+   
+    width: 300px;
+    height: 500px;
+}
+.top {
+    background-image: url(./bearded-man-wearing-white-shirt-holding-folders-with-serious-face-standing-pink-wall_141793-57526.avif);
+    height: 80%;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+.botom {
+    margin-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.botom a {
+    background-color: blue;
+    color: white;
+   padding: 10px;
+   width: 100px;
+   border-radius: 10px;
+    
+}
+.top1 {
+    background-image: url(./international-day-education-celebration_23-2150931024.avif);
+    height: 80%;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+.top2 {
+    background-image: url(./handsome-man-shirt-stand-office_151013-10744.avif);
+    height: 80%;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+.our{
+    margin-top: 150px;
+}
+.top3 {
+    background-image: url(./html-web-design-code-developers-designers_372999-4796.jpg);
+    height: 60%;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+.top4 {
+    background-image: url(./Rectangle\ 4.png);
+    height: 60%;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+.top5 {
+    background-image: url(./5g-wifi-connection-digital-marketing-mock-up_23-2148386107.avif);
+    height: 60%;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+.top6 {
+    background-image: url(./program-coding-concept_24640-21611.avif);
+    height: 60%;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+.top7 {
+    background-image: url(./téléchargement.jfif);
+    height: 60%;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+.top8 {
+    background-image: url(./téléchargement\ \(1\).jfif);
+    height: 60%;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+.top9 {
+    background-image: url(./téléchargement\ \(2\).jfif);
+    height: 60%;
+    margin-top: 90px;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+.top10 {
+    background-image: url(./cyber-security-digital-background_734894-18.avif);
+    height: 60%;
+    margin-top: 90px;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+.top11 {
+    background-image: url(./téléchargement\ \(3\).jfif);
+    height: 60%;
+   
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+.top12 {
+    background-image: url(./téléchargement.png);
+    height: 60%;
+  
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+.footer img {
+    width: 100px;
+   padding: 80px;
+   margin-left: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+.ourapp{
+    font-size: 10px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
+.menu{
+    display: none;
+}
+@media  only  screen  and (max-width:800px){
+    .list ul {
+        flex-direction: column;
+        position: absolute;
+        top: 12%;
+        right: 2%;
+        background-color: blue;
+        padding: 10px 30px;
+    }
+    .show{
+        right: 0%;
+    }
+    .list a {
+        color: white;
+    }
+    .menu {
+        display: block;
+        
+    }
+    .menu i {
+        font-size: 40px;
+    }
+}
+.do {
+    
+    background-color: blue;
+    color: white;
+   padding: 10px;
+   width: 100px;
+   border-radius: 10px;
+   margin-left: 50px;
+   
+}
